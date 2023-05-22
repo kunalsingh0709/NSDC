@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Design</title>
+
+
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--custom css-->
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!----Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact Me">Contact Me</a>
+        </nav>
+    </header>
+
+
+    <!--home section design-->
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kunal Singh</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A person who loves integration in his skills and exploring the world. I am able to handle multiple tasks
+                on daily basis using creative
+                approach and dependable due to work time management. I am always energetic and eager to learn new
+                skills.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="IMG_0955.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About section Design-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="kunalpic.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Full Stack Developer!</h3>
+            <p>My Name is Kunal Singh. I have completed my graduation from Chandigarh university with 7.52 cgpa.I am a
+                self-starter with strong interpersonal skills. I work efficiently both as an individual contributor as
+                well as along with a team.
+                I seek new challenges and try to think out-of-the-box while looking for creative solutions to a given
+                problem.</br>
+
+                I believe in character, values, vision, and action.
+                I am a quick learner and believe in learning from my mistakes for I strongly feel that this virtue will
+                take me ahead in life and career.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--Services section-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development is the work involved in developing a website for the Internet or an intranet.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-bar-chart-alt-2'></i>
+                <h3>Digital marketing</h3>
+                <p>Digital marketing is the component of marketing that uses the Internet and online based digital
+                    technologies.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Graphic design is a profession, academic discipline and applied art whose activity consists in
+                    projecting visual communications.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="protfolio-box">
+                <img src="bloging.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Blogging Site</h4>
+                    <p> Create a blog website where users can write some blogs and
+                        other users can see this blog. Here use JWT
+                        authentication for protected APIs.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="protfolio-box">
+                <img src="open to intern.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Intership Website</h4>
+                    <p> Create college or company profile where users can apply for
+                        their internship. Here users use to find suitable
+                        Internships or Jobs depending upon their skills.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="protfolio-box">
+                <img src="download.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Book Management</h4>
+                    <p> Create books library website where users can give review on
+                        books. Here use JWT authentication for protected APIs.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="protfolio-box">
+                <img src="product.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Product Management</h4>
+                    <p> Created an eCommerce website's backend part with multiple
+                        APIs based on products, Users, Carts and Orders.
+                        Here use JWT authentication for pro
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address"
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject"
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy: 2023 BY Kunal |All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--Typed Js-->
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom js-->
+    <script src="script.js"></script>
+
+ 
+</body>
+
+</html>
